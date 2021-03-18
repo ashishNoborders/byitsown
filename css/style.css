@@ -806,6 +806,9 @@ background-repeat: no-repeat;
     color: #383838;
 }
 
+.pagination {
+    justify-content: flex-end !important;
+}
 .post-pagination {
     padding: 0px 20px;
 }
