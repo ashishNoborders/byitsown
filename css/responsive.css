@@ -1,0 +1,58 @@
+@media (max-width: 768px){
+    .custom-nav {
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        display: flex;
+    }
+
+    .custom-nav > nav > #navbarNav {
+        position: absolute;
+        right: 16px;
+        top: 49px;
+        background: white;
+        min-width: 200px;
+        z-index: 999999;
+        color: rgba(0,0,0,.5);
+        border-color: rgba(0,0,0,.1);
+        box-shadow: 0px 5px 3px #4e567a;
+        border-radius: 0 0 8px 8px;
+        padding: 5px 13px;
+    }
+
+    .owl-demo .item img {
+        height: 320px;
+    }
+
+    .carousel-caption h2 {
+        font-size: 16px;
+        padding: 0px;
+        line-height: 30px;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+
+    .carousel-caption {
+        top: 15%;
+    }
+
+    .banner .slider-btn {
+        background: #C71778;
+        border-radius: 8px;
+        border: 0;
+        margin-top: 0;
+        display: inline-block;
+        color: #fff;
+        font-size: 14px;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .owl-theme .owl-nav.disabled + .owl-dots {
+        margin-top: 0px;
+    }
+    .owl-dots{
+        top: 70%;
+    }
+}
+
+    
