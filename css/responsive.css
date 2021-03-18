@@ -24,16 +24,16 @@
     }
 
     .carousel-caption h2 {
-        font-size: 16px;
+        font-size: 24px;
         padding: 0px;
         line-height: 30px;
     }
     .carousel-caption p{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .carousel-caption {
-        top: 15%;
+        top: 10%;
     }
 
     .banner .slider-btn {
@@ -51,7 +51,34 @@
         margin-top: 0px;
     }
     .owl-dots{
-        top: 70%;
+        top: 68%;
+    }
+
+    .sec-with-banner h4 {
+        margin-bottom: 15px;
+    }
+
+    .sec-with-banner p {
+        width: 220px;
+        margin-bottom: 10px;
+    }
+    .sec-with-banner{
+        padding: 25px;
+    }
+
+    .author-by p, .author-comment p, .author-comment p {
+        margin: 0px;
+        font-size: 12px;
+    }
+    
+    .feature-title{
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .owl-theme .owl-dots .owl-dot span {
+        width: 12px;
+        height: 12px;
     }
 }
 
