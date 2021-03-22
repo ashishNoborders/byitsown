@@ -1008,3 +1008,93 @@ ul.footer-social-links a {
 svg:hover {
     fill: #D7277B;
 }
+
+.common-btn{
+    background: linear-gradient(56deg, #2B2F84, #E6267A);
+    width: 100px;
+    box-shadow: 0px 10px 20px #F5D0E4;
+    border-radius: 5px;
+}
+
+.contact-us-from .common-btn{
+    width: 120px;
+}
+
+
+
+.common-btn a {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+
+
+.contact-us-from .common-btn button {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    padding: 2px 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+/* .common-btn button{
+
+} */
+
+
+/* Contact Us form  */
+.contact-data-info h3 {
+    font-weight: 600;
+    /* font-size: 24px; */
+    margin: 10px 0px;
+}
+
+.contact-data-info p {
+    margin: 10px 0px;
+    font-size: 16px;
+}
+
+.contact-data-info{
+    margin: 20px 0px;
+}
+
+.contact-us-from {
+    box-shadow: 0px 20px 40px #B4B4B428;
+    padding: 50px 0;
+}
+.contact-us-from h5 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.contact-us-from .address {
+    color: #383838;
+    width: 70%;
+    margin: 0 auto;
+    /* text-align: center; */
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+
+.address a {
+    padding: 4px 8px;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-form .common-btn {
+    margin: 0 auto;
+}
+
+.contact-form .form-group input, .contact-form .form-group textarea {
+    width: 66%;
+    margin: 0 auto;
+    border: 0.75px solid #B9B9B9;
+
+}
